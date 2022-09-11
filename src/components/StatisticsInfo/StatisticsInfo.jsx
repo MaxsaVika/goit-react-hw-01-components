@@ -16,5 +16,5 @@ export const StatisticsInfoItem = ({statName, statValue}) => {
   
   StatisticsInfoItem.propTypes = {
     statName: PropTypes.string.isRequired,
-    statValue: PropTypes.string.isRequired,
+    statValue: PropTypes.number.isRequired,
   };

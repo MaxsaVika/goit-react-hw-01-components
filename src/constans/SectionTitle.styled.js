@@ -6,7 +6,8 @@ export const SectionTitle = styled.h2`
   font-size: ${p => p.theme.fontSizes.xxl};
   text-align: center;
   text-transform: uppercase;
-  color: ${p => p.theme.colors.darkText};
+  color: ${p => p.theme.colors.lightText};
+  text-shadow: ${p => p.theme.shadows.text};
 `;
 
 export const SectionSubTitle = styled.h2`
