@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { getRandomHexColor } from 'utils/getRandomHexColor';
 
 
 import {StatisticsListItem, StatisticsTitle, StatisticsValue} from './StatisticsInfo.styled'
@@ -6,9 +7,9 @@ import {StatisticsListItem, StatisticsTitle, StatisticsValue} from './Statistics
 export const StatisticsInfoItem = ({statName, statValue}) => {
     return (
 
-            <StatisticsListItem>
+            <StatisticsListItem backgroundColor = {getRandomHexColor()}>
                 <StatisticsTitle>{statName}</StatisticsTitle> 
-                <StatisticsValue>{`{statValue}%`}</StatisticsValue>
+                <StatisticsValue>{`${statValue}%`}</StatisticsValue>
             </StatisticsListItem>
         )}
 

@@ -11,10 +11,11 @@ export const SectionTitle = styled.h2`
 
 export const SectionSubTitle = styled.h2`
   margin: ${p => p.theme.space[0]};
-  margin-top: ${p => p.theme.space[4]};
-  margin-bottom: ${p => p.theme.space[4]};
+  margin-top: ${p => p.theme.space[5]};
+  margin-bottom: ${p => p.theme.space[5]};
   font-size: ${p => p.theme.fontSizes.xl};
   text-align: center;
   text-transform: uppercase;
   color: ${p => p.theme.colors.darkText};
+  text-shadow: ${p => p.theme.shadows.text};
 `;

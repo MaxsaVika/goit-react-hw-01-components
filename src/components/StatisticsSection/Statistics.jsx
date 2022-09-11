@@ -7,7 +7,7 @@ export const Statistics = ({ title }) => {
     return (
       <Section>
           <SectionTitle>{title}</SectionTitle>
-          <StatisticsCard/>
+          <StatisticsCard subTitle = "Upload stats"/>
       </Section>
     );
   };

@@ -23,6 +23,7 @@ export const UserProfileName = styled.p`
   font-size: ${p => p.theme.fontSizes.l};
   font-weight: ${p => p.theme.fontWeights.bold};
   color: ${p => p.theme.colors.darkText};
+  text-shadow: ${p => p.theme.shadows.text};
 `;
 
 export const UserProfileInformation = styled.p`
