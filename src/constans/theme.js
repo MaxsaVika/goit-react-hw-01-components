@@ -21,8 +21,7 @@ export const theme = Object.freeze({
     statusFriend: '16px',
     avatarFriend: '70px',
     friendListItem: '250px',
-    tableMin: '250px',
-    tableMax: '600px',
+    table: '600px',
   },
   fontSizes: {
     xs: '12px',

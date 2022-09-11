@@ -8,9 +8,15 @@ export const FriendItem = styled.li`
   padding: ${p => p.theme.space[3]} ${p => p.theme.space[4]};
   background-color: ${p => p.theme.colors.whiteBG};
   border: ${p => p.theme.borders.cardInner};
+  border-radius: ${p => p.theme.radii.card};
   box-shadow: ${p => p.theme.shadows.generic};
   &:not(:last-child) {
     margin-bottom: ${p => p.theme.space[4]};
+  }
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.06);
   }
 `;
 

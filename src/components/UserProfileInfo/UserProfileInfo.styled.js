@@ -15,6 +15,10 @@ export const UserProfileImage = styled.img`
   background-color: ${p => p.theme.colors.lightBG};
   border-radius: ${p => p.theme.radii.round};
   box-shadow: ${p => p.theme.shadows.generic};
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    transform: scale(1.06);
+  }
 `;
 
 export const UserProfileName = styled.p`

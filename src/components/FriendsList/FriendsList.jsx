@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import friendsData from 'data/friends.json'
 import {FriendListItem} from 'components/FriendCard/FriendCard'
 import {FriendsListStyle} from './FriendsList.styled'
